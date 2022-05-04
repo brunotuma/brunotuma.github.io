@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+body{
+        height: 100vh;
+        background-color: rgb(236, 233, 233);
+        overflow-x: hidden; 
+}
+
+/* HEADER */
+header{
+        padding: 1em 0 0.5em 0;
+        background-color: snow;
+}
+
+nav{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header li{
+    display: inline-block;
+    padding: 1.5em;
+}
+
+#nav-logo{
+    width: 100%;
+}
+
+nav > a{
+    width: 20%;
+}
+
+.header a:link{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.header a:visited{
+    color: teal;
+}
+
+.header li:hover{
+    border-bottom: 2px solid gray;
+}
+/* FIM DO HEADER */
+
+#hero{
+    height: 100vh;
+    background-image: url("../images/fotos/sala1a.jpeg");
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+}
+
+h1{
+    margin-top: 1em;
+    text-shadow: 2px 2px #8d8a8a;
+}
+
+#hero img{
+    width: 30%;
+}
+
+/* AGENDAMENTO */
+#agendamento{
+    display: flex;
+    justify-content: space-around;
+    padding: 5em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.15em;
+    font-weight: bold;
+    line-height: 2em;
+    color:rgb(2, 70, 102);
+}
+
+hr{
+    border-color:rgb(16, 66, 66);
+}
+
+ul{
+    list-style-type:circle;
+}
+
+#agendamento ul{
+    padding: 1em 0 0 3em;
+}
+
+#telefone{
+    width: 40%;
+}
+#telefone p{
+    text-align: center;
+}
+
+#whats{
+    width: 40%;
+}
+#whats p{
+    text-align: center;
+}
+/* #agendamento #whats ul{
+    list-style-type: none;
+} */
+
+#agendamento #whats ul li img{
+    width: 10%;
+}
+
+/* FOOTER */
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#endereco{
+    background-color: rgb(16, 66, 66);
+    color: whitesmoke;
+    padding: 1em;
+    padding-bottom: 0;
+    text-align: center;
+    line-height: 1.6;
+    font-size: large;
+}
+
+#endereco img{
+    width: 2%;
+}
